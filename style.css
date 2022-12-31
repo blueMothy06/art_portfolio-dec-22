@@ -11,6 +11,8 @@ html {
   font-family: 'Varela Round', sans-serif;
   width: auto;
   background-color: #F1EFDC;
+  color: #6C3057;
+  margin: 0;
 }
 
 h1 {
@@ -22,10 +24,11 @@ h1 {
 }
 
 h2 {
-  color: #fdafcb;
+  color:#F1EFDC;
   font-size: 25px;
   margin-right: 10%;
   margin-left: 10%;
+  border-bottom: 3px solid #DFA56A;
 }
 
 p {
@@ -34,15 +37,6 @@ p {
   margin-right: 10%;
   margin-left: 10%;
   line-height: 1.4;
-}
-
-a {
-  color: #4cd4f2;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #AB1350;
 }
 
 ul {
@@ -65,27 +59,54 @@ li {
   background: #ff2374;
 }
 
-.active {
-  color: orange;
-}
+
+/* ---------------------- Navbar  ---------------------*/
 
 .navbar {
-  display: flex;
   padding: 0;
   text-transform: uppercase;
   margin-right: auto;
+  opacity: 100%;
 }
 
 .navbar nav {
-  display: flex;
-  /* gap: 40%; */
+  display: block;
   margin-left: auto;
 }
 
 .navbar a {
   float: right;
   display: block;
-  color: #d62b90;
+  color: #8A6475;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* 
+nav {
+  width: 100%;
+  top: 5%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font1);
+}
+
+.navbar {
+  float: right;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  color: var(--accent);
+  padding-right: 10%;
+  text-transform: uppercase;
+  margin-right: auto;
+} */
+
+.navbar a {
+  color: #8A6475;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -95,14 +116,20 @@ li {
   color: orange;
 }
 
+.navbar ul .active {
+  color: #d38434;
+  border-bottom: 3px solid #DFA56A;
+  border-radius: 0px;
+}
+
+
 .logo {
   position: absolute;
   top: 5%;
   left: 10%;
   animation: wiggle 2s linear;
   float: left;
-  font-size: 1.5em;
-  border: #2d043c solid;
+  font-size: 1.2em;
 }
 
 .logo img {
@@ -112,6 +139,65 @@ li {
 .logo a {
   color: #2d043c;
 }
+
+/* ---------------------- This is Homepage  ---------------------*/
+
+.frame {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.frame img {
+  width: 200px;
+  height: 250px;
+  border-radius: 225px;
+  object-fit: cover;
+}
+
+.face {
+  min-width: 250px;
+  padding: 5px;
+  border: 3px dashed #D36B00;
+}
+
+.home {
+  text-align: center;
+}
+
+/* ---------------------- homepage Speech Bubble ---------------------*/
+
+.speech-bubble {
+  background-color: #6C3057;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.speech-bubble img {
+  display: inline-block;
+  margin: 10% 0 0 0;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  padding: 15px;
+  border: #DFA56A dashed;
+}
+
+.speech-bubble p {
+  align-items: flex-start;
+  vertical-align: top;
+  text-align: left;
+  max-width: 120px;
+  display: inline-block;
+}
+
+.speech-column {
+  flex: 100%;
+  padding: 5px;
+}
+
+/* ----------------------  ---------------------*/
 
 /* Keyframes */
 @keyframes wiggle {
@@ -154,7 +240,7 @@ li {
 
 .row {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .column {
