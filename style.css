@@ -3,6 +3,11 @@
   src: url(VarelaRound-Regular.ttf);
 }
 
+@font-face {
+  font-family: Sacramento;
+  src: url(Sacramento-Regular.ttf);
+}
+
 
 @import url("https://fonts.googleapis.com/css?family=Varela-Round' rel='stylesheet");
 @import url("https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet");
