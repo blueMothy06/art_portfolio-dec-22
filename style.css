@@ -281,6 +281,10 @@ nav {
   transform: scale(1.02);
 }
 
+.gallery-body {
+  grid-column: 2;
+}
+
 /* ---------------------- This is TOP button ---------------------*/
 
 .top-button {
