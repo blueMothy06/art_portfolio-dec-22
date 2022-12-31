@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  color:#F1EFDC;
+  color: #F1EFDC;
   font-size: 25px;
   margin-right: 10%;
   margin-left: 10%;
@@ -176,7 +176,8 @@ nav {
 
 .speech-bubble img {
   display: inline-block;
-  margin: 10% 0 0 0;
+  margin-top: 10%;
+
   width: 150px;
   height: 150px;
   object-fit: cover;
@@ -185,17 +186,53 @@ nav {
 }
 
 .speech-bubble p {
-  align-items: flex-start;
-  vertical-align: top;
   text-align: left;
-  max-width: 120px;
+  max-width: 150px;
   display: inline-block;
+}
+
+.speech-bubble a {
+  color: orange;
+  text-decoration: none;
+  max-width: 150px;
+  display: inline-block;
+  text-align: left;
 }
 
 .speech-column {
   flex: 100%;
   padding: 5px;
+
 }
+
+/* ---------------------- This is TOP button ---------------------*/
+
+.top-button {
+  /* float: right; */
+  position: fixed;
+  bottom: 5%;
+  right: 0%;
+}
+
+.top-button a {
+  text-decoration: none;
+  color: var(--white);
+  background: var(--accent);
+  font-family: var(--font1);
+  font-size: 110%;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 0 10px 15px;
+  padding-right: 4vw;
+  border-radius: 10px 0 0 10px;
+  transition: 0.3s ease;
+}
+
+.top-button :hover {
+  color: var(--white);
+  background: var(--blue1);
+}
+
 
 /* ----------------------  ---------------------*/
 
@@ -240,7 +277,6 @@ nav {
 
 .row {
   display: flex;
-  justify-content: space-evenly;
 }
 
 .column {
@@ -249,12 +285,12 @@ nav {
 }
 
 footer {
+  background-color: #2d043c;
   margin: auto;
   text-align: center;
   padding: 10px;
   padding-bottom: 20px;
   padding-top: 5%;
-  margin-bottom: 50px;
   bottom: 0;
 }
 
