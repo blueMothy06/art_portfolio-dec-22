@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <link rel="stylesheet" type="text/css" href="../style.css">
+<link rel="stylesheet" type="text/css" href="lightbox.min.css">
+<script type="text/javascript" src="lightbox-plus-jquery.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
@@ -19,7 +21,7 @@
             <ul>
                 <!-- <a href="./contact.html">contact</a> -->
                 <a class="active" href="../pages/work.html">work</a>
-                <a href="../pages/about.html">about</a>
+                <!-- <a href="../pages/about.html">about</a> -->
                 <a href="../index.html">home</a>
             </ul>
         </nav>
@@ -36,47 +38,73 @@
 
             <p class="p-tag" id="tag-1">Graphic Design</p>
             <div class="gallery">
-                <a>
+                <a href="../assets/design/graphic1.png">
                     <img src="../assets/design/graphic1.png"></a>
-                <a data-lightbox="img">
+                <a href="../assets/design/graphic2.png" data-lightbox="img">
                     <img src="../assets/design/graphic2.png"></a>
-                <a data-lightbox="img">
-                    <img src="../assets/design/graphic4.png"></a>
+                <a href="../assets/design/graphic3.png" data-lightbox="img">
+                    <img src="../assets/design/graphic3.png"></a>
+            </div>
+
+            <p class="p-tag" id="tag-2">Videos</p>
+            <div class="gallery" style="display: block; margin-left: 40%;">
+                <video width="560" height="315" controls>
+                    <source src="../assets/video/vid1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <video width="560" height="315" controls>
+                    <source src="../assets/video/vid2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <video width="560" height="315" controls>
+                    <source src="../assets/video/vid3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <video width="560" height="315" controls>
+                    <source src="../assets/video/vid4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <video width="560" height="315" controls>
+                    <source src="../assets/video/vid5.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
 
             <p class="p-tag" id="tag-3">Coding Projects</p>
             <div class="gallery">
-                <a>
-                    <img src="../assets/code/dig1.png"></a>
-                <a data-lightbox="img">
-                    <img src="../assets/code/dig2.png"></a>
-                <a data-lightbox="img">
+                <a href="https://pv-scylla.itch.io/the-neighbor" data-lightbox="img">
                     <img src="../assets/code/dig3.webp"></a>
-                <a data-lightbox="img">
+                <a href="https://bluemothy06.github.io/random2/" data-lightbox="img">
+                    <img src="../assets/code/dig2.png"></a>
+                <a href="https://pv-scylla.itch.io/i-guess-its-the-calamity-now" data-lightbox="img">
                     <img src="../assets/code/dig4.webp"></a>
-                <a data-lightbox="img">
+                <a href="https://pv-scylla.itch.io/i-want-a-ceiling-plant-holder" data-lightbox="img">
                     <img src="../assets/code/dig5.webp"></a>
             </div>
 
             <p class="p-tag" id="tag-4">Illustrations</p>
             <div class="gallery">
-                <a>
+                <a href="../assets/illust/img1.webp">
                     <img src="../assets/illust/img1.webp"></a>
-                <a data-lightbox="img">
+                <a href="../assets/illust/img2.webp" data-lightbox="img">
                     <img src="../assets/illust/img2.webp"></a>
-                <a data-lightbox="img">
+                <a href="../assets/illust/img3.webp" data-lightbox="img">
                     <img src="../assets/illust/img3.webp"></a>
-                <a data-lightbox="img">
+                <a href="../assets/illust/img4.webp" data-lightbox="img">
                     <img src="../assets/illust/img4.webp"></a>
-                <a data-lightbox="img">
+                <a href="../assets/illust/img5.webp" data-lightbox="img">
                     <img src="../assets/illust/img5.webp"></a>
-                <a data-lightbox="img">
+                <a href="../assets/illust/img6.webp" data-lightbox="img">
                     <img src="../assets/illust/img6.webp"></a>
-                <a data-lightbox="img">
+                <a href="../assets/illust/img7.webp" data-lightbox="img">
                     <img src="../assets/illust/img7.webp"></a>
-                <a data-lightbox="img">
+                <a href="../assets/illust/img8.webp" data-lightbox="img">
                     <img src="../assets/illust/img8.webp"></a>
-                <a href="./assets/illust/img1.webp" data-lightbox="img">
+                <a href="../assets/illust/img9.webp" data-lightbox="img">
                     <img src="../assets/illust/img9.webp"></a>
             </div>
         </div>
@@ -91,17 +119,17 @@
         </p>
         <div class="row" id="socials">
             <div class="column">
-                <a href="https://www.instagram.com/pv_scylla/"><img src="../assets/icons/insta.svg"> </a>
+                <a href="https://www.instagram.com/pv_scylla/"><img src="../assets/icons/insta.png"> </a>
             </div>
             <div class="column">
                 <a href="https://www.linkedin.com/in/catherine-luong-2b8b91159/"><img
-                        src="../assets/icons/linkedin.svg"></a>
+                        src="../assets/icons/linkedin.png"></a>
             </div>
             <div class="column">
-                <a href="https://pv-scylla.itch.io/"><img src="../assets/icons/itch.svg"> </a>
+                <a href="https://pv-scylla.itch.io/"><img src="../assets/icons/itch.png"> </a>
             </div>
             <div class="column">
-                <a href="mailto: catherineluongart@gmail.com"><img src="../assets/icons/mail.svg"> </a>
+                <a href="mailto: catherineluongart@gmail.com"><img src="../assets/icons/mail.png"> </a>
             </div>
         </div>
         <p style="color: #E6D2AA; max-width: 100%; font-size:15px; padding-top: 10px; ">
