@@ -36,6 +36,22 @@ h2 {
   border-bottom: 3px solid #DFA56A;
 }
 
+.title {
+  color: #D36B00;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+.year {
+  color: #8A6475;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
 p {
   font-size: 18px;
   line-height: normal;
@@ -60,10 +76,32 @@ li {
 }
 
 ::selection {
-  color: #2d043c;
-  background: #ff2374;
+  color: white;
+  background: orange;
 }
 
+a {
+  text-decoration: none;
+}
+
+/* ---------------------- Button  ---------------------*/
+
+button {
+  background-color: #d38434;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  position: relative;
+  font-family: 'Varela Round', san-serif;
+  border-radius: 8px;
+  top: 11%;
+  margin: auto;
+  display: block;
+}
 
 /* ---------------------- Navbar  ---------------------*/
 
@@ -110,12 +148,12 @@ nav {
   margin-right: auto;
 } */
 
-.navbar a {
+/* .navbar a {
   color: #8A6475;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
+} */
 
 .navbar a:hover {
   color: orange;
@@ -139,10 +177,11 @@ nav {
 
 .logo img {
   height: 30px;
+  width: 100%;
 }
 
 .logo a {
-  color: #2d043c;
+  color: #42032C;
 }
 
 /* ---------------------- This is Homepage  ---------------------*/
@@ -232,9 +271,8 @@ nav {
 
 .side-bar a {
   text-decoration: none;
-  color: var(--white);
-  border-bottom: 1px solid var(--white);
-  font-family: var(--font1);
+  color: #F1EFDC;
+  font-family: "Varela Round", sans-serif;
   font-size: 120%;
   font-weight: 600;
   padding: 10px 0;
@@ -243,9 +281,10 @@ nav {
 }
 
 .side-bar a:hover {
-  color: var(--white);
+  color: #d38434;
   padding-left: 20px;
   margin-left: 70px;
+  border-bottom: 3px solid #d38434;
   transition: 0.3s ease;
 }
 
@@ -319,7 +358,26 @@ nav {
 }
 
 
+/* ---------------------- showcase ---------------------*/
+
+.showcase {
+  margin: 60px auto;
+  padding: 5px 5px 1px 5px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.showcase img {
+  width: 30%;
+  margin: 15px;
+  border-radius: 25px;
+  border: #d38434 solid;
+}
+
 /* ----------------------  ---------------------*/
+
 
 /* Keyframes */
 @keyframes wiggle {
@@ -370,7 +428,7 @@ nav {
 }
 
 footer {
-  background-color: #2d043c;
+  background-color: #42032C;
   margin: auto;
   text-align: center;
   padding: 10px;
