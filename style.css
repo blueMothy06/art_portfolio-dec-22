@@ -292,11 +292,10 @@ nav {
 .p-tag {
   margin-top: 50px;
   margin-bottom: 30px;
-  color: var(--blue1);
-  font-family: var(--font1);
   font-size: 30px;
   margin-left: 35%;
   text-align: left;
+  border-bottom: 3px solid #d38434;
 }
 
 .gallery {
@@ -340,8 +339,8 @@ nav {
 
 .top-button a {
   text-decoration: none;
-  color: var(--white);
-  background: var(--accent);
+  color: #F1EFDC;
+  background: #6C3057;
   font-family: var(--font1);
   font-size: 110%;
   font-weight: 600;
@@ -353,8 +352,7 @@ nav {
 }
 
 .top-button :hover {
-  color: var(--white);
-  background: var(--blue1);
+  background: #d38434;
 }
 
 
@@ -374,6 +372,7 @@ nav {
   margin: 15px;
   border-radius: 25px;
   border: #d38434 solid;
+  padding: 5px;
 }
 
 /* ----------------------  ---------------------*/
