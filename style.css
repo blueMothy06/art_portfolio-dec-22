@@ -4,7 +4,7 @@
 }
 
 @font-face {
-  font-family: Sacramento;
+  font-family: Sacramento, sans-serif;
   src: url(Sacramento-Regular.ttf);
 }
 
@@ -95,7 +95,7 @@ button {
   text-decoration: none;
   font-size: 18px;
   position: relative;
-  font-family: 'Varela Round', san-serif;
+  font-family: 'Varela Round', sans-serif;
   border-radius: 8px;
   top: 11%;
   margin: auto;
