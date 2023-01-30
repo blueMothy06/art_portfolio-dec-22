@@ -220,12 +220,16 @@ nav {
 .speech-bubble img {
   display: inline-block;
   margin-top: 10%;
-
+  transition: 0.5s;
   width: 150px;
   height: 150px;
   object-fit: cover;
   padding: 15px;
   border: #DFA56A dashed;
+}
+
+.speech-bubble img:hover {
+  transform: scale(1.05);
 }
 
 .speech-bubble p {
