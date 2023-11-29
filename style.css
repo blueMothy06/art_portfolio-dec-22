@@ -316,6 +316,7 @@ nav {
   align-items: start;
   margin-left: 10%;
 }
+
 .p-tag {
   margin-top: 50px;
   margin-bottom: 30px;
@@ -400,6 +401,10 @@ nav {
   border-radius: 25px;
   border: #d38434 solid;
   padding: 5px;
+}
+
+.showcase img:hover {
+  transform: scale(1.02);
 }
 
 /* ----------------------  ---------------------*/
