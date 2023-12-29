@@ -2,11 +2,23 @@
 <html lang="en" dir="ltr">
 <link rel="stylesheet" type="text/css" href="../../style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../../css/splide-core.min.css">
+<link rel="stylesheet" type="text/css" href="../../css/splide-default.min.css">
+<link rel="stylesheet" type="text/css" href="../../css/splide.min.css">
+<script src="../../js/splide.min.js"></script>
 
 <head>
     <meta charset="utf-8">
     <link rel="icon" href="../../assets/icons/favicon.png">
     <title>Catherine Luong</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel', {
+                heightRatio: 1,
+                rewind: true,
+            }).mount();
+        });
+    </script>
 </head>
 
 <body>
@@ -26,25 +38,42 @@
     </div>
     <main style="margin-bottom: 2%;">
         <div class="showcase">
-            <img src="../../assets/design/sjsu1.webp">
-            <img src="../../assets/design/sjsu2.webp">
+            <main>
+                <section id="image-carousel" class="splide" aria-label="Project Images">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="../../assets/design/sjsu1.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="../../assets/design/sjsu2.webp">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="../../assets/design/CGS banners.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="../../assets/design/funding.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="../../assets/design/regalia.png">
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </main>
         </div>
-        <div class="showcase">
-            <img src="../../assets/design/CGS banners.png">
-        </div>
-        <div class="showcase">
-            <img src="../../assets/design/sjsu1.webp">
-            <img src="../../assets/design/sjsu2.webp">
-        </div>
-        <p class="title">SJSU College of Graduate Studies Posters</p><p class="year">(2022)</p>
+
+        <p class="title">SJSU College of Graduate Studies Posters</p>
+        <p class="year">(2022-2023)</p>
         <p style="margin-left: 20%; margin-right: 20%;">
-            These are a few posters for the Graduate Studies, advertising department-specific
-            events. Focused on using school colors and combining them with white to balance 
-            out colors that normally clashed with each other. By balancing the saturation and
-            tint, I achieved a visually appealing layout that didn't overwhelm the viewer. 
+            When I was working at the College of Graduate Studies, I was tasked with creating several graphics for the
+            department. I balanced the offical colors, blue and yellow, keeping the spirit of the school in each piece,
+            while trying to keep the composition visually appealing.
+            All of them were printed out and displayed on hallways, with the exception of the last design, which became
+            a six-foot tall banner.
             <br>
             <br>
-            <b>Tool: </b><i>Canva</i>
+            <b>Tool: </b><i>Adobe Illustrator</i>
         </p>
         <a href="../work.html"><button style="margin-top: 2%;">Check out my other works!</button></a>
     </main>
