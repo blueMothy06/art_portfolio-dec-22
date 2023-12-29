@@ -408,14 +408,15 @@ button :hover {
   justify-content: center;
   justify-items: center;
   align-items: center;
-  
+  max-width: 50%;
+  max-height: 50%;
 }
 
 .showcase img {
   border-radius: 25px;
   border: #d38434 solid;
   padding: 5px;
-  max-width: 20%;
+  
 }
 
 
