@@ -350,12 +350,14 @@ button :hover {
   padding: 20px;
   text-align: center;
   border-radius: 0 0 15px 15px;
+  transform: scale(0.95);
 }
 
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
   opacity: 1;
   transition: 0.5s ease;
+  transform: scale(1.0);
 }
 
 /* ---------------------- This is TOP button ---------------------*/
