@@ -420,8 +420,25 @@ button :hover {
   
 }
 
+/* ---------------------- keyframes ---------------------*/
 
-/* ----------------------  ---------------------*/
+.case-study {
+  margin: 60px auto;
+  padding: 5px 5px 1px 5px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  max-width: 70%;
+}
+
+.case-study img {
+  border-radius: 25px;
+  border: #d38434 solid;
+  padding: 5px;
+}
+
+/* ---------------------- keyframes ---------------------*/
 
 
 /* Keyframes */
