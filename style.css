@@ -257,7 +257,6 @@ button :hover {
   flex-direction: column;
   text-align: left;
   justify-content: start;
-  margin-left: 10%;
   margin-top: 5%;
   max-width: 200px;
   font-size: small;
