@@ -2,11 +2,23 @@
 <html lang="en" dir="ltr">
 <link rel="stylesheet" type="text/css" href="../../style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../../css/splide-core.min.css">
+<link rel="stylesheet" type="text/css" href="../../css/splide-default.min.css">
+<link rel="stylesheet" type="text/css" href="../../css/splide.min.css">
+<script src="../../js/splide.min.js"></script>
 
 <head>
     <meta charset="utf-8">
     <link rel="icon" href="../../assets/icons/favicon.png">
     <title>Catherine Luong</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel', {
+                heightRatio: 1,
+                rewind: true,
+            }).mount();
+        });
+    </script>
 </head>
 
 <body>
@@ -26,9 +38,23 @@
     </div>
     <main style="margin-bottom: 2%;">
         <div class="showcase">
-            <img src="../../assets/code/dig5.webp">
-            <img src="../../assets/code/dig5-1.webp">
-            <img src="../../assets/code/dig5-2.webp">
+            <main>
+                <section id="image-carousel" class="splide" aria-label="Project Images">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="../../assets/code/plant1.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="../../assets/code/plant2.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="../../assets/code/plant3.png">
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </main>
         </div>
         <p class="title">i want a ceiling plant holder</p>
         <p class="year">(2022)</p>
