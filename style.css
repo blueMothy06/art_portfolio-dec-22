@@ -365,7 +365,7 @@ button :hover {
 
 
 .c-study {
-  margin-left: 20%; 
+  margin-left: 20%;
   margin-right: 20%;
 }
 
@@ -507,12 +507,12 @@ footer {
   padding-bottom: 20px;
   padding-top: 5%;
   bottom: 0;
-  
+
 }
 
 footer a {
-  display:block;
-  color:#DFA56A
+  display: block;
+  color: #DFA56A
 }
 
 
@@ -566,7 +566,7 @@ footer a {
     padding: 0;
     margin-top: 100px;
     margin-bottom: 100px;
-    float:none
+    float: none
   }
 
   .navbar nav {
@@ -592,7 +592,7 @@ footer a {
     background: #6C3057;
     max-width: 100%;
   }
-  
+
   .side-bar a {
     text-decoration: none;
     color: #F1EFDC;
@@ -638,25 +638,29 @@ footer a {
     max-height: auto;
   }
 
-.c-study {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-  
-.case-study {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  max-width: 100%;
-  max-height: auto;
-}
+  .c-study {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .case-study {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: auto;
+  }
 
   #socials img {
     width: 15%;
     display: inline;
   }
 
+  .logo img {
+    height: 30px;
+    width: auto;
+  }
 
 }
