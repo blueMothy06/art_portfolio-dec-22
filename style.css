@@ -363,6 +363,12 @@ button :hover {
   transform: scale(1.0);
 }
 
+
+.c-study {
+  margin-left: 20%; 
+  margin-right: 20%;
+}
+
 /* ---------------------- This is TOP button ---------------------*/
 
 .top-button {
@@ -620,6 +626,32 @@ footer a {
   .p-tag {
     text-align: center;
   }
+
+  .showcase {
+    margin: 60px auto;
+    padding: 5px 5px 1px 5px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: auto;
+  }
+
+.c-study {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+  
+.case-study {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: auto;
+}
 
   #socials img {
     width: 15%;
