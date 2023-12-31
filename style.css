@@ -249,6 +249,7 @@ button :hover {
 .side-bar {
   grid-column: 1;
   position: sticky;
+  top: 0vw;
   background: #6C3057;
   color: #F1EFDC;
   border-radius: 0px 0px 15px 15px;
@@ -260,7 +261,6 @@ button :hover {
   margin-top: 5%;
   max-width: 200px;
   font-size: small;
-  margin-top: 15%;
 }
 
 .side-bar a {
@@ -547,6 +547,10 @@ footer {
     margin-right: auto;
   }
 
+  .speech-bubble {
+    margin: 0;
+  }
+
   .navbar {
     padding: 0;
     margin-top: 100px;
@@ -575,6 +579,7 @@ footer {
     margin: auto;
     z-index: 2;
     background: #6C3057;
+    max-width: 100%;
   }
   
   .side-bar a {
