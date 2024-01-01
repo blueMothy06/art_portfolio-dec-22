@@ -507,6 +507,9 @@ footer {
   padding-bottom: 20px;
   padding-top: 5%;
   bottom: 0;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
 
 }
 
